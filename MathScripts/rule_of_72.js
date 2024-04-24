@@ -1,7 +1,9 @@
 // variables created as inputs for calculation
 let savings= 50000;
-let interest= 30;
+let rateOfReturn= 30;
 
-let years= 60 / interest;
+let timeToDouble = 72 / rateOfReturn
 
-console.log("at a" + interest + "% interest rate, your savings account")
+// let doubledAmount = saving * 2
+
+console.log("the time( number of years) to double my $ is" + timeToDouble);
