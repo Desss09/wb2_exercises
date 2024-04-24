@@ -8,3 +8,8 @@ let totalDue = foodCost + tax + tip;
 
 //output the results to the console
 console.log("The total due is" + totalDue)
+
+console.log(
+    "food cost is" + foodCost + " and tax is" + tax);
+    console.log("tip is" + tip);
+    console.log("Total Due is" +totalDue)
