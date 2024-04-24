@@ -13,3 +13,4 @@ console.log(
     "food cost is" + foodCost + " and tax is" + tax);
     console.log("tip is" + tip);
     console.log("Total Due is" +totalDue)
+    console.log ("tip is" + tip.toFixed(2));
