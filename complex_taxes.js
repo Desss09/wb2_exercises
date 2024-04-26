@@ -2,8 +2,8 @@
 //create some variables we need for our calculations
 
 //this is the hourly rate for the employees
-let payRate = 12.50;
-let hoursWorked = 20;
+let payRate = 17.30;
+let hoursWorked = 45;
 
 //determine how many hours are normal hours vs overtime ours
 
@@ -11,9 +11,7 @@ let regularHours = 0;
 let overtimeHours = 0;
 
 //if the hours are greater than 40, we know they worked overtime
-if (hoursWorked > 40)
-
-    if (hoursWorked > 40) {
+  if (hoursWorked > 40) {
         //this is where we need to figure out the overtime hours
         regularHours = 40
         overtimeHours = hoursWorked - 40;
